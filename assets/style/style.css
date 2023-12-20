@@ -1,3 +1,40 @@
 body {
-  background-color: grey;
+  background-color: rgb(222, 209, 209);
+}
+body header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+body header .navbarTop {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+body header .navbarTop img {
+  padding: 1rem;
+  background: white;
+}
+body header .navbarTop .link a {
+  text-decoration: none;
+  color: black;
+}
+body header .navbarTop .compte {
+  font-size: 1.5rem;
+}
+body header .navbarLink {
+  background: radial-gradient();
+  background: linear-gradient(50deg, #87BB34, #44A33D);
+  display: flex;
+  justify-content: center;
+}
+body header .navbarLink p {
+  margin: 0.5rem;
+  color: white;
+}
+body header .navbarLink p a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

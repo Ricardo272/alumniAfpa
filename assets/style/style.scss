@@ -1,3 +1,53 @@
 body {
-    background-color: grey;
+    background-color: rgb(222, 209, 209);
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+
+        .navbarTop {
+            display: flex;
+            background-color: white;
+            justify-content: space-around;
+            align-items: center;
+
+            img {
+                padding: 1rem;
+                background: white;
+            }
+
+            .link {
+                a {
+                    text-decoration: none;
+                    color: black;
+
+                }
+            }
+
+            .compte {
+                font-size: 1.5rem;
+            }
+        }
+
+        .navbarLink {
+            background: radial-gradient();
+            background: linear-gradient(50deg, #87BB34, #44A33D);
+            display: flex;
+            justify-content: center;
+
+            p {
+                margin: .5rem;
+                color: white;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+
+
+                }
+            }
+        }
+    }
 }
