@@ -4,45 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style/style.css">
     <title>Alumni Afpa</title>
 </head>
 
 <body>
-    <header>
-        <div class="navbarTop">
-            <img src="./assets/img/logo/logoAfpa.jpg" alt="Logo Afpa">
-            <div class="link">
-                <a href="#">Trouver votre centre</a>
-                <a href="#"> Vos questions </a>
-            </div>
-            <button class="compte" type="button">Mon compte</button>
-        </div>
-        <div class="navbarLink">
 
-            <p>Je suis</p>
-            <p>
-                <a href="#">Particulier</a>
-            </p>
-            <p>
-                <a href="#">Partenaire</a>
-            </p>
-            <p>
-                <a href="#">Entreprise</a>
-            </p>
-            <p>
-                <a href="#">Nos formations</a>
-            </p>
-            <p>
-                <a href="#">Actualités</a>
-            </p>
-            <p>
-                <a href="#">Groupe Apfa</a>
-            </p>
-        </div>
+    <?php
+    include("./components/headerNavbar.php");
+    ?>
 
 
-    </header>
 </body>
 
 </html>
