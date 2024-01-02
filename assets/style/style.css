@@ -118,4 +118,26 @@ body header .sous a:hover {
 body header .deroulant > a::after {
   content: " ▼ ";
   font-size: 12px;
+}
+body .boucleAlumni {
+  display: flex;
+}
+body .boucleAlumni .carteAlumni {
+  display: flex;
+  flex-direction: column;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .boucleAlumni .carteAlumni h3 {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .boucleAlumni .carteAlumni p {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #00a0e0;
+}
+body .boucleAlumni .carteAlumni img {
+  border: solid 5px blue;
+  width: 20%;
 }/*# sourceMappingURL=style.css.map */

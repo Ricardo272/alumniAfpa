@@ -143,4 +143,29 @@ body {
         }
     }
 
+    .boucleAlumni {
+        display: flex;
+
+
+        .carteAlumni {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+
+            h3 {
+                width: fit-content;
+            }
+
+            p {
+                width: fit-content;
+                color: #00a0e0
+            }
+
+            img {
+                border: solid 5px blue;
+                width: 20%;
+            }
+        }
+    }
+
 }
